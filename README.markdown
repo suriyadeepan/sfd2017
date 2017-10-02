@@ -6,7 +6,7 @@ In Puducherry, we celebrated this year's SFD on 1st October. My team put up a st
 
 The code for the sketches are available at [slides/sketches/](slides/sketches). 
 
-[**Live Demo**](https://suriyadeepan.github.io/sfd17)
+[**Live Demo**](https://suriyadeepan.github.io/sfd2017) is available.
 
 ## Sketches
 
