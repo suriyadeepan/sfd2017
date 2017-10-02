@@ -3,8 +3,8 @@ var digits = "314159265358979323846264338327950288419716939937510582097494459230
 var i;
 var selectEnabled = false;
 var offset = 20;
-var ellipseRadius = 12;
-var rStep = 20;
+var ellipseRadius = 11;
+var rStep = 15;
 // color LUT
 var colorLUT = [ '#ffb5a6', '#ff7f7f', '#b6b6c0', '#6673a1', '#535457',
                '#ff9c84', '#d47e7f', '#a5576f', '#60345e', '#4d224d' ];
