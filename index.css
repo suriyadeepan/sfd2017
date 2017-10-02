@@ -3,6 +3,8 @@
   -webkit-box-sizing: border-box;
 }
 
+@import url(//fonts.googleapis.com/css?family=Italiana&amp;subset=latin);
+
 body, html {
   margin: 0;
   padding: 0;
