@@ -64,7 +64,7 @@ function draw(){
   background(240);
   // draw 3
   fill(colorOf(3));
-  ellipse(0, 0, 50);
+  ellipse(0, 0, 40);
   
   var circle = null;
   var i = 1;
@@ -87,7 +87,7 @@ function draw(){
 
 function renderPi(){
   var step = 5;
-  stroke(255, 200);
+  stroke(255, 230);
   strokeWeight(4);
   noFill();
   beginShape();
