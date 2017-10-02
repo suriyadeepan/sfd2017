@@ -1,0 +1,141 @@
+<head>
+	<title>SFD 2017</title>
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Italiana&amp;subset=latin">
+<link rel="stylesheet" href="index.css">
+<script src="slides/js/p5.min.js"></script>
+</head>
+
+<!-- Note : I HATE writing html -->
+
+<body><section id="top">
+
+		<script src="index.js"></script>
+		<div id="heading"><div id="logo">SFD 2017</div><div id="tagline">Creative Coding and Data Visualization with p5.js</div></div>
+	
+	</section>
+	
+<section><div class="content">
+		<h1 id="introduction">Introduction</h1>
+		<p>
+		<a href="https://www.softwarefreedomday.org/" target="_blank">Software Freedom Day</a> (SFD) is an annual worldwide celebration of Free Software. SFD is a public education effort with the aim of increasing awareness of Free Software and its virtues, and encouraging its use. 
+		</p>
+		<p>
+		In Puducherry, we celebrated this year's SFD on 1st October. My team put up a stall on Data Visualization and Creative Coding. Scroll down to take a look at my sketches.
+		</p>
+	</div>
+</section>
+
+<section>
+	<div class="content">
+		<h1>Musical Circles</h1>
+		<p>When I searched for ideas, I found "sound balls" somewhere. I rewrote it in p5, structured it a bit and named it "Musical Circles". I had a lot of fun playing with this. I hope you do too. The logic is simple. Circular objects are created on mouse release. Each circle has an oscillator attached with it, whose frequency depends on mouseX and amplitude depends on mouseY.</p>
+		<ul>
+			<li> Lower your speaker/earphone <b>volume</b> </li>
+			<li> Click on the screen to generate sound </li>
+			<li> <a href="slides/1.html" target="blank_">Play</a></li>
+		</ul>
+	</div>
+</section>
+
+<section>
+	<div class="content">
+		<h1>Node Garden</h1>
+		<p>A bunch of nodes move around randomly in space. Each node attracts the nodes closer to it. The force of attraction is represented by a thin line. Due to resource constraints on smaller devices, i've reduced the canvas size to 70%.</p>
+	
+		<ul>
+			<li> <a href="slides/2.html" target="blank_">Play</a></li>
+		</ul>
+	</div>
+</section>
+
+<section>
+	<div class="content">
+		<h1>Node Network</h1>
+		<p>This is a p5 rewrite of a processing sketch created by <a href="https://www.openprocessing.org/sketch/381786" target="blank_">Jason Labbe</a>. The nodes in proximity to each other are connected by drawing a shape through their vertices. (70% screen size)</p>
+		<ul>
+			<li>Click to change color</li>
+			<li>Press any key to toggle nodes</li>
+			<li> <a href="slides/3.html" target="blank_">Play</a></li>
+		</ul>
+	</div>
+</section>
+
+<section>
+	<div class="content">
+		<h1>Light Brush</h1>
+		<p>This one is a last minute addition to list of sketches. It's a rewrite of <a href="https://www.openprocessing.org/sketch/446535" target="blank_">André Casey's</a> Wandering Particles. It makes use of HTML5's global composite operation to alter color composition.</p>
+		<ul>
+			<li>Move the mouse to paint the screen with bright colored circles</li>
+			<li> <a href="slides/4.html" target="blank_">Play</a></li>
+		</ul>
+	</div>
+</section>
+
+<section>
+	<div class="content">
+		<h1>Delaunay Brush</h1>
+		<p>This sketch is based on Jason Labbe's <a href="https://www.openprocessing.org/sketch/413567" target="blank_">Frozen Brush</a>. As you drag the mouse around, particles are created a scattered along the mouse direction. These particles are inter-connected by Delaunay Triangulation. I've added a slider to adjust the hue value.</p>
+		<ul>
+			<li>Click and drag to draw</li>
+			<li>Press any key to enable/disable fill</li>
+			<li>Adjust the slider at the bottom to change color</li>
+			<li> <a href="slides/5.html" target="blank_">Play</a></li>
+		</ul>
+	</div>
+</section>
+
+<section>
+	<div class="content">
+		<h1>Magical Circles</h1>
+		<p>8 concentric interconnected circles that choose to rotate clockwise or anti-clockwise randomly. </p>
+		<ul>
+			<li>Click to reset</li>
+			<li> <a href="slides/6.html" target="blank_">Play</a></li>
+		</ul>
+	</div>
+</section>
+
+<section>
+	<div class="content">
+		<h1>PI is beautiful - Grid</h1>
+		<p>The series of sketches that follow are based on the visual representations of PI shown in this <a href="https://www.youtube.com/watch?v=NPoj8lk9Fo4" target="blank_">video</a> by Numberphile. I watched this video a few months ago and promised myself that i'd try it out soon. This sketch shows a grid representation of the first 1000 digits in PI. Each value (0-9) is assigned a color. The neighbours with equal values are connected together.</p>
+		<ul>
+			<li> <a href="slides/7.html" target="blank_">Play</a></li>
+		</ul>
+	</div>
+</section>
+
+<section>
+	<div class="content">
+		<h1>PI is beautiful - Spiral</h1>
+		<p>Spiral Representation of PI. The number of points in each circle changes based on the radius of the circle, which increases linearly.</p>
+		<ul>
+			<li> <a href="slides/8.html" target="blank_">Play</a></li>
+		</ul>
+	</div>
+</section>
+
+<section>
+	<div class="content">
+		<h1>PI is beautiful - Web</h1>
+		<p>Web like representation of PI. Each arc on the outer circle represents a value (0-9). For each set of (i, i+1)th digits of PI, a line is drawn from value(i)th arc to value(i+1)th arc. This is done for 10000 digits of PI. </p>
+		<ul>
+			<li> <a href="slides/9.html" target="blank_">Play</a></li>
+		</ul>
+	</div>
+</section>
+
+<section>
+	<div class="content">
+		<h1>PI is beautiful - Colored Web</h1>
+		<p>Same concept as last sketch, but here, I've assigned a color to each value(0-9).</p>
+		<ul>
+			<li> <a href="slides/10.html" target="blank_">Play</a></li>
+		</ul>
+	</div>
+</section>
+
+<section>
+	<img src="img/event.jpg" />
+	<p>Petit Seminaire Higher Secondary School, Puducherry, Oct 1, 2017</p>
+</section>
