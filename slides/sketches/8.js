@@ -70,7 +70,7 @@ function draw(){
   var i = 1;
   var r = rStep;
   var n = 6;
-  while(i+n < 5000){
+  while(i+n < 2000){
     // create a circle
     //  radius = n*2
     //   accommodates next n points
